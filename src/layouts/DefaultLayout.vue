@@ -17,8 +17,14 @@
       <!-- Navigation menu info -->
       <template v-slot:prepend>
         <div class="pa-2">
-          <div class="title font-weight-bold text-uppercase primary--text">{{ product.name }}</div>
-          <div class="overline grey--text">{{ product.version }}</div>
+          <!-- <div class="title font-weight-bold text-uppercase primary--text">{{ product.name }}</div>
+          <div class="overline grey--text">{{ product.version }}</div> -->
+          <div class="title font-weight-bold text-uppercase primary--text">Evraz-Bucks demo</div>
+          <v-img
+            max-height="100%"
+            max-width="100%"
+            :src="require(`@/assets/images/bucks_logo.jpg`)"
+          ></v-img>
         </div>
       </template>
 
@@ -41,19 +47,6 @@
           </v-btn>
         </div>
 
-        <!-- REMOVE ME - Shop Demo purposes -->
-        <div class="pa-2 pt-1 text-center">
-          <v-btn
-            class="buy-button"
-            dark
-            block
-            color="#EE44AA"
-            href="https://store.vuetifyjs.com/products/lux-admin-pro/"
-            target="_blank"
-          >
-            Buy Now
-          </v-btn>
-        </div>
       </template>
     </v-navigation-drawer>
 
@@ -132,7 +125,7 @@
       <v-footer app inset>
         <v-spacer></v-spacer>
         <div class="overline">
-          Built with <v-icon small color="pink">mdi-heart</v-icon> <a class="text-decoration-none" href="https://indielayer.com" target="_blank">@indielayer</a>
+          Built with <v-icon small color="pink">mdi-heart</v-icon>
         </div>
       </v-footer>
     </v-main>

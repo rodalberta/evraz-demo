@@ -47,10 +47,11 @@ export default {
   }],
 
   // footer links
-  footer: [{
-    text: 'Docs',
-    key: 'menu.docs',
-    href: 'https://vuetifyjs.com',
-    target: '_blank'
-  }]
+  footer: []
+  // footer: [{
+  //   text: 'Docs',
+  //   key: 'menu.docs',
+  //   href: 'https://vuetifyjs.com',
+  //   target: '_blank'
+  // }]
 }

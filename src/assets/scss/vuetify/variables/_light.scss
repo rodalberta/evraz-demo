@@ -2,9 +2,9 @@ $material-light: (
   'status-bar': (
     'regular': map-get($blue-grey, 'lighten-2')
   ),
-  'app-bar': #ffffff,
-  'background': #f2f5f8,
-  'surface': #f2f5f8,
+  'app-bar': #ffffff, // ffffff
+  'background': #f2f5f8, // f2f5f8
+  'surface': #f2f5f8, // f2f5f8
   'calendar': (
     'line-color': map-get($blue-grey, 'lighten-2'),
     'interval-color': map-get($blue-grey, 'darken-3'),
