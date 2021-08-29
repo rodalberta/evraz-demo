@@ -23,6 +23,11 @@
           <v-img
             max-height="100%"
             max-width="100%"
+            :src="require(`@/assets/images/evraz_logo.png`)"
+          ></v-img>
+          <v-img
+            max-height="100%"
+            max-width="100%"
             :src="require(`@/assets/images/bucks_logo.jpg`)"
           ></v-img>
         </div>
