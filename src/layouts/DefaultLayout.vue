@@ -58,7 +58,7 @@
     <!-- Toolbar -->
     <v-app-bar
       app
-      :color="isToolbarDetached ? 'surface' : undefined"
+      :color="isToolbarDetached ? 'surface' : '#f57f29'"
       :flat="isToolbarDetached"
       :light="toolbarTheme === 'light'"
       :dark="toolbarTheme === 'dark'"

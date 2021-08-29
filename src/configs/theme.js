@@ -32,11 +32,11 @@ export default {
 
   // light theme colors
   light: {
-    background: '#ffffff',
-    surface: '#f2f5f8',
-    primary: '#0096c7',
+    background: '#f57f29',
+    surface: '#f57f29',
+    primary: '#fcb53b',
     secondary: '#a0b9c8',
-    accent: '#048ba8',
+    accent: '#ee2d24',
     error: '#ef476f',
     info: '#2196F3',
     success: '#06d6a0',
